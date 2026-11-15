@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0",
+  "retrievedOn": "2026-11-15",
+  "modelRevision": "research-la-snapshot-2026-11-15",
+  "modelWindow": {
+    "startInclusive": "2026-11-15",
+    "endExclusive": "2026-12-01",
+    "meaning": "Research fixture applicability only. No legal effective dates are asserted."
+  },
+  "supportedJurisdictions": [
+    "City of Los Angeles",
+    "Unincorporated Los Angeles County"
+  ],
+  "unsupportedJurisdictions": [
+    "Other incorporated cities, including County contract cities",
+    "Unknown or unresolved jurisdiction"
+  ],
+  "sources": [
+    {
+      "sourceId": "la-city-ladbs-new-building-intake",
+      "jurisdiction": "City of Los Angeles",
+      "publisher": "Los Angeles Department of Building and Safety",
+      "title": "Plan Review & Permitting",
+      "url": "https://dbs.lacity.gov/services/plan-review-permitting",
+      "support": "City building permit and electronic plan-review intake context; no particular review program is selected.",
+      "limits": "Jurisdiction is externally reviewed at parcel level; all other agency clearances remain outside the model."
+    },
+    {
+      "sourceId": "la-unincorporated-county-new-building-intake",
+      "jurisdiction": "Unincorporated Los Angeles County",
+      "publisher": "Los Angeles County Public Works",
+      "title": "Building and Safety",
+      "url": "https://permits.lacounty.gov/permits/building-and-safety/",
+      "support": "Unincorporated County building permit authority, Service Locator and EPIC-LA application context.",
+      "limits": "Contract-city rules and approval are not implemented. Selecting department intake is not permission to build."
+    },
+    {
+      "sourceId": "la-county-jurisdiction-guidance",
+      "publisher": "Los Angeles County Planning",
+      "title": "Unincorporated Los Angeles County",
+      "url": "https://planning.lacounty.gov/unincorporated-los-angeles-county/",
+      "support": "Mailing city name does not determine jurisdiction; official jurisdiction lookup is needed.",
+      "companionUrl": "https://planning.lacounty.gov/maps-and-gis/gis-net-public/",
+      "limits": "No GIS lookup result or parcel boundary dataset is bundled; reviewed lookup evidence is an external attestation."
+    },
+    {
+      "sourceId": "la-county-epicla",
+      "publisher": "Los Angeles County Planning",
+      "title": "EPIC-LA",
+      "url": "https://planning.lacounty.gov/epic-la/",
+      "support": "County electronic application and case-management portal context.",
+      "limits": "Planning and building approvals remain separate; no automatic submission or selection of a planning case type."
+    },
+    {
+      "sourceId": "la-city-zimas",
+      "publisher": "Los Angeles Department of Building and Safety",
+      "title": "Zoning",
+      "url": "https://dbs.lacity.gov/services/zoning",
+      "support": "Official ZIMAS parcel-information context for City of Los Angeles properties.",
+      "limits": "An externally reviewed lookup attests jurisdiction; lookup authenticity and actual boundaries are not established by this checker."
+    },
+    {
+      "sourceId": "la-county-publicworks-service-locator",
+      "publisher": "Los Angeles County Public Works",
+      "title": "Service Locator",
+      "url": "https://pw.lacounty.gov/general/servicelocator/",
+      "support": "Official service-locator destination linked by the County Building and Safety instructions.",
+      "limits": "No lookup is performed or authenticated; model evidence must be supplied and reviewed for the same parcel."
+    }
+  ],
+  "provenanceLimits": "The revision is an authored model identifier, not a cryptographic hash of live agency pages. No source page is bundled or automatically refreshed. Source interpretation and official lookup review remain trusted external inputs.",
+  "jurisdictionLookupRegistry": {
+    "cityLA": "la-city-zimas",
+    "unincorporatedLACounty": "la-county-publicworks-service-locator"
+  }
+}

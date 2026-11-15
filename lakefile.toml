@@ -1,0 +1,10 @@
+name = "lean-city-permitting"
+version = "0.1.0"
+defaultTargets = ["fixtures"]
+
+[[lean_lib]]
+name = "CityPermitting"
+
+[[lean_exe]]
+name = "fixtures"
+root = "Main"
