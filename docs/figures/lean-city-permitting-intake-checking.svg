@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="316" viewBox="0 0 960 316" role="img" aria-labelledby="title desc">
+<title id="title">Figure 1. The implemented checking boundary</title>
+<desc id="desc">A schematic of the actual pure evaluator. Source authenticity and semantic review occur before the checked boundary; municipal approval is downstream and unimplemented. [1]</desc>
+<rect width="960" height="100%" rx="12" fill="#111e1b"/>
+<style>text{font-family:Arial,Helvetica,sans-serif}.label{fill:#f4f2ec;font-size:19px;font-weight:600}.detail{fill:#b5c4bc;font-size:16px}.num{fill:#ff8a62;font-size:14px;font-weight:700}</style>
+<rect x="26" y="20" width="436" height="120" rx="7" fill="#182d26" stroke="#52685d"/>
+<text class="num" x="44" y="49">01</text>
+<text class="label" x="78" y="50">Reviewed request</text>
+<text class="detail" x="44" y="84">Parcel lookup, scope attestation and an exact</text>
+<text class="detail" x="44" y="104">note span.</text>
+<path d="M 469 80 h 21 m -7 -6 l 7 6 -7 6" fill="none" stroke="#ff8a62" stroke-width="2"/>
+<rect x="498" y="20" width="436" height="120" rx="7" fill="#182d26" stroke="#52685d"/>
+<text class="num" x="516" y="49">02</text>
+<text class="label" x="550" y="50">Registered policy</text>
+<text class="detail" x="516" y="84">Full equality with the compiled jurisdiction-</text>
+<text class="detail" x="516" y="104">specific bundle.</text>
+<rect x="26" y="162" width="436" height="120" rx="7" fill="#182d26" stroke="#52685d"/>
+<text class="num" x="44" y="191">03</text>
+<text class="label" x="78" y="192">Eligibility guard</text>
+<text class="detail" x="44" y="226">Date, jurisdiction, scope, references and</text>
+<text class="detail" x="44" y="246">evidence all checked.</text>
+<path d="M 469 222 h 21 m -7 -6 l 7 6 -7 6" fill="none" stroke="#ff8a62" stroke-width="2"/>
+<rect x="498" y="162" width="436" height="120" rx="7" fill="#182d26" stroke="#52685d"/>
+<text class="num" x="516" y="191">04</text>
+<text class="label" x="550" y="192">Explicit outcome</text>
+<text class="detail" x="516" y="226">Department intake route or the first review</text>
+<text class="detail" x="516" y="246">reason.</text>
+</svg>
